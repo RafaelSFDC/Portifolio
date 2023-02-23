@@ -1,9 +1,9 @@
 export const projects = [
   {
-    title: "MERN Memories",
+    title: "Hoobank",
     description:
       "Um projeto simples que visa criar uma landingpage de um site de banco.",
-    image: "images/Bank.png",
+    image: "images/1.png",
     tags: ["Vite", "Tailwind", "React"],
     source: "https://github.com/RafaelSFDC/BankWebsite",
     visit: "https://rafaelsfdc.github.io/BankWebsite/",
