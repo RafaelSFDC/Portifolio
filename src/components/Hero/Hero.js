@@ -9,7 +9,7 @@ const Hero = () => {
           Bem vindo ao <br /> meu Portfólio
         </h2>
         <p className="leftText">
-          Meu nome é Rafael sou um desenvolvedor JavaScript FullStack com foco
+          Meu nome é Rafael sou um desenvolvedor JavaScript Front-End com foco
           no React.js.
         </p>
       </div>
