@@ -1,0 +1,109 @@
+* {
+  width: 100%;
+  /* background-image: url(./files/Black-Animation-Background.svg); */
+  background-color: rgb(26, 24, 24);
+  font-family: "Ubuntu", sans-serif;
+  list-style: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap");
+
+.App {
+  color: white;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.div {
+  display: block;
+}
+.sectionContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  max-width: 1040px;
+  box-sizing: content-box;
+  position: relative;
+  overflow: hidden;
+  grid-template-columns: 1fr 1fr;
+  background-image: inherit;
+  margin-bottom: 5rem;
+  padding-left: 1rem;
+}
+
+.sectionTitle {
+  display: flex;
+  font-weight: 800;
+  font-size: 2.6rem;
+  line-height: 72px;
+  width: max-content;
+  max-width: 100%;
+  margin: 0;
+  color: white;
+  padding: 5px 0px 16px;
+  margin-bottom: 16px;
+}
+
+.sectionText {
+  margin: 0;
+  max-width: 800px;
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.icon {
+  color: #22d1ee;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+.divider {
+  width: 45px;
+  height: 6px;
+  border-radius: 10px;
+  background-color: #22d1ee;
+  background-image: none;
+  margin: 0;
+  background-image: inherit;
+}
+
+@media (max-width: 900px) {
+  .sectionTitle {
+    font-size: 1.8rem;
+    line-height: 50px;
+    margin-bottom: 12px;
+    padding: 1rem 0 12px;
+  }
+
+  .sectionContainer {
+    flex-direction: column;
+    width: calc(100vw - 32px);
+    flex-direction: column;
+  }
+
+  .sectionText {
+    max-width: 670px;
+    font-size: 1rem;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #22d1ee;
+  border-radius: 100vw;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1db5cf;
+}
+::-webkit-scrollbar-thumb:focus {
+  background: #1db5cf;
+}
