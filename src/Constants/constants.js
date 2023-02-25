@@ -15,8 +15,8 @@ export const projects = [
       "Projeto que utiliza de uma inteligencia artificial para gerar imagens. Utilizando Back-End para armazenar os dados.",
     image: "images/2.png",
     tags: ["MongoDB", "React", "OpenAI", "Express"],
-    source: "https://github.com/RafaelSFDC/OpenAI",
-    visit: "https://openai-front-end.onrender.com",
+    source: "https://openai-front-end.onrender.com",
+    visit: "https://github.com/RafaelSFDC/OpenAI",
     id: 1,
   },
 ];
